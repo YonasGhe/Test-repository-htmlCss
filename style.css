@@ -1,0 +1,174 @@
+body{
+    height: 100vh;
+    width: 100%;
+  }
+  nav {
+    background-color: #345;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+    font-style: none;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+h1{
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+ h2 {
+        flex-basis: 100%;
+        text-align: start;
+        margin: 10px;
+        padding: 10px;
+        color: blue;
+  }
+
+  #my-cv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #c3a8a8;
+  }
+
+  #my-cv .about{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    
+  } 
+  h3{
+    align-items: center;
+    color: darkblue;
+
+    }
+    .about p{
+        text-align: right;
+        margin: auto; 
+        padding: 10px;
+        }
+  
+    h4 {
+        text-align: right;
+        margin: 20px;
+        font-size: large;
+        color: darkslateblue;
+  }
+    .experience{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 0%;
+
+  }
+    .experience p{
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+  }
+  .education{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 0%;
+  }
+  .education p{
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+  }
+  .brev{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 0%;
+  }
+  .brev p{
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+  }
+  footer{
+    background-color: #345;
+    color: aliceblue;
+    height: auto;
+    padding: 1rem;
+  }
+  .foot img{
+    width: auto;
+    margin: 1rem;
+    height: 30px;
+    padding: 0%;
+  }
+  .films{
+    background-color: #333;
+  }
+  header {
+    height: 150;
+    width: 100%;
+    border: 1px solid black;
+    color: blue;
+    background-color: #f1f;
+  }
+  .header{
+    margin-left: 20%;
+    padding: 0;
+    display: flex;
+  }
+  .header a {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  main {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .films img{
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+  }
+  .films img {
+      flex-grow: 1;
+  }
+  
+  @media (max-width: 700px ){
+    header{
+      text-align: center;
+    }
+    .header {
+      display: block;
+    }
+  }
+  
