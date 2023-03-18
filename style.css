@@ -186,8 +186,8 @@ h1{
   .foot p{
     text-align: center;
   }
-  .foot span{
-    text-align: right;
+  .foot span p{
+    float: right;
   }
   
   @media (max-width: 700px ){
