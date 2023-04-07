@@ -11,8 +11,9 @@ body{
     padding: 20px;
   }
   .navigation img{
-    height: 150px;
-    margin: 2rem;
+    height: 100px;
+    margin: auto;
+    
   }
 
   nav ul {
@@ -102,7 +103,7 @@ h1{
     padding: 0%;
   }
   .education p{
-    text-align: right;
+    text-align: center;
     margin: 10px;
     padding: 10px;
   }
@@ -115,7 +116,7 @@ h1{
     padding: 0%;
   }
   .brev p{
-    text-align: right;
+    text-align: center;
     margin: 10px;
     padding: 10px;
   }
@@ -157,15 +158,13 @@ h1{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 2rem;
   }
   .films img{
     width: 100px;
     margin: 20px;
     text-align: center;
-  }
-  .films img {
-      flex-grow: 1;
+    flex-grow: 1;
   }
   .rasar{
     text-align: center;
@@ -190,12 +189,31 @@ h1{
     float: right;
   }
   
-  @media (max-width: 700px ){
-    header{
+  @media (max-width: 600px ){
+    nav{
       text-align: center;
+      display: block;
     }
     .header {
       display: block;
+
     }
+    .films {
+      text-align: center;
+    }
+    .main{
+      display: block;
+      text-align: center;
+    }
+    .hundar img{
+      width: 100%;
+    }
+    #my-cv div, h4{
+      display: block;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+    }
+ 
   }
   
